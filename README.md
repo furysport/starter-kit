@@ -31,7 +31,7 @@ In order to interact with a local chain, the easiest way is with docker:
 docker run -it \
   -p 26656:26656 \
   -p 26657:26657 \
-  -e STAKE_TOKEN=ujunox \
+  -e STAKE_TOKEN=ujuno \
   ghcr.io/cosmoscontracts/juno:v2.1.0 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
